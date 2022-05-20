@@ -1,0 +1,45 @@
+.containers{
+    height:800px;
+    width:100%;
+    background-color: yellow;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./bck.png");
+    height:1000px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    
+}
+.ab{
+    height:800px;
+    width:50%;
+    position: relative;
+    left:150px;
+
+}
+.textshi{
+    color:rgb(170, 167, 167);
+    font-size: 30px;
+    font-style:initial;
+}
+.sent{
+    color:white;
+    font-size: 15px;
+    width:300px;
+}
+.life{
+    color:white;
+    font-size: 15px;
+    width:300px;
+}
+.pic1{
+    background: url(./prof.jpeg); 
+    background-repeat: no-repeat;
+    background-size: 400px 600px;
+    height:600px;
+    width:400px;
+    position: relative;
+    left:650px;
+    bottom:580px;
+    
+}

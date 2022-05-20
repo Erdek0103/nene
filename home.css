@@ -1,0 +1,73 @@
+.container{
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    background: url(./nene.webp); 
+    background-repeat: no-repeat;
+    background-size: 350px 350px;
+    height:350px;
+    width:350px;
+}
+.menu{
+    height:1000px;
+    width:350px;
+    background-color:rgba(26,26,26,255);
+}
+.line{
+    height:1.5px;
+    width:350px;
+    background-color:rgb(170, 167, 167);
+}
+.text{
+    text-decoration: none;
+    color: rgb(170, 167, 167);
+    list-style: none;
+    font-size: 30px;
+    padding: 100px;
+    
+
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.home{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("./bck.png");
+    height:1000px;
+    width:100%;
+    background-color: black;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+
+}
+.profile{
+    background: url(./nengtu.jpeg); 
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    height:250px;
+    width:250px;  
+    border-radius: 50%; 
+}
+.texture{
+    color: whitesmoke;
+    font-size:50px;
+}
+.textare{
+    color: rgb(255, 217, 0);
+    font-size: 50px;
+}
+a{
+    text-decoration: none;    
+    color:rgb(170, 167, 167); 
+    
+}

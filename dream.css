@@ -1,0 +1,54 @@
+.job{
+    height:600px;
+    width:100%;
+    background-color:rgba(26,26,26,255);
+    display: flex;
+    position: absolute;
+
+}
+
+.finance{
+    background: url(./finance.jpeg); 
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    height:500px;
+    width:45%;
+    position: relative;
+    left:100px;
+    top:10px;
+}
+.line{
+    height:600px;
+    width:1.5px;
+    background-color:rgb(170, 167, 167);
+    position:relative;
+    left:200px;
+}
+
+.software{
+    background: url(./software.jpeg); 
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    height:500px;
+    width:45%;
+    position: relative;
+    left:300px;
+    top:10px;
+}
+.warn{
+    position: relative;
+    top:510px;
+    right:300px;
+    color: rgb(170, 167, 167);
+    left:30px;
+}
+.warn1{
+    position: relative;
+    top:510px;
+    right:1000px;
+    color: rgb(170, 167, 167);
+}
+a{
+    text-decoration: none;
+    color:rgb(170, 167, 167);
+}
